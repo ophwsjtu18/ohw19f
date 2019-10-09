@@ -140,14 +140,14 @@ Markdown是一种纯文本格式的标记语言。通过简单的标记语法，
 示例：
 
 ```
-![K-ON](https://images5.alphacoders.com/602/thumb-1920-602907.jpg"K-ON" )
+![hhh](https://github.com/ophwsjtu18/ohw19f/blob/master/student/wmh/36570536_0109_20190225-221749.png?raw=true )
 ```
 
 效果如下：
 
-![K-ON](https://images5.alphacoders.com/602/thumb-1920-602907.jpg"K-ON" )
+![hhh](https://github.com/ophwsjtu18/ohw19f/blob/master/student/wmh/36570536_0109_20190225-221749.png?raw=true )
 
-K-ON
+hhh
 
 # 六、超链接
 
