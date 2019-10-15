@@ -1,5 +1,5 @@
-# 真帅
-##  大标题
-![](https://github.com/ophwsjtu18/ohw19f/blob/master/student/wyc/1.png)
+# 作业情况
+##  WEEK6 作业
+![](https://github.com/ophwsjtu18/ohw19f/blob/master/student/wyc/homework.png)
 
 
