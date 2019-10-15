@@ -2,7 +2,7 @@
 
 ## python progress
 
-! [] (https://github.com/ophwsjtu18/ohw19f/aaa.JPG)
+![image](https://github.com/ophwsjtu18/ohw19f/blob/master/student/sd/10152019.png)
 
 
 
