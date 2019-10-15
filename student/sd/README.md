@@ -1,17 +1,10 @@
-# 1  
+# 开源硬件课程
 
-## 2  
+## python progress
 
-## 3  
-1  
-2
-
-2
+! [] (https://github.com/ophwsjtu18/ohw19f/aaa.JPG)
 
 
-
-
-![](https://github.com/ophwsjtu18/ohw19f/aaa.JPG)
 
 
 
