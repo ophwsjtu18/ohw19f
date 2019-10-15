@@ -1,4 +1,4 @@
-# 大标题
-![](https://github.com/ophwsjtu18/ohw19f/blob/master/student/zmz/%E7%94%B7%E5%AD%A9%E5%A4%B4%E5%83%8F.png)
+# zmz个人记录
 ## Python网站学习记录
-第二章截图
+第二章完成截图
+![](https://github.com/ophwsjtu18/ohw19f/blob/master/student/zmz/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%AE%8C%E6%88%90%E6%88%AA%E5%9B%BE.PNG)
