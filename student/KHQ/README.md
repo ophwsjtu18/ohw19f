@@ -3,3 +3,6 @@
 ----------------------
 ### My Avatar
 ![Avatar](长颈鹿2.jpeg)
+
+### First Homework
+![Homework1](homework1.png)
