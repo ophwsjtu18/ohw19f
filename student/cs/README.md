@@ -1,3 +1,3 @@
 #Homework1  
-student/cs/hw1.jpg
+![](https://github.com/ophwsjtu18/ohw19f/blob/master/student/cs/hw1.jpg)
 
