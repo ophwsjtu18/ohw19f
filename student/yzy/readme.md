@@ -12,4 +12,4 @@
 怎么不变啊
 
 ### 以此类推
-![](https://github.com/ophwsjtu18/ohw19f/blob/master/student/yzy/progress.png)
+![](https://github.com/ophwsjtu18/ohw19f/blob/master/student/yzy/progress-function.png)
