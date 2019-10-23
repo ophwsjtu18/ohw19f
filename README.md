@@ -7,9 +7,14 @@ Open source maker course for SJTU in 2019 fall
 
 ![](https://github.com/ophwsjtu18/ohw19/blob/master/serp_mixly.PNG)
 
+# 安装串口包
+
+pip install pyserial
 
 
-## 设置pip安装源为国内
+
+
+# 设置pip安装源为国内
 
 安装步骤：  
 
