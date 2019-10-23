@@ -5,4 +5,4 @@
 ## MinorTitle
 还有一个小标题
 # 目前进度
-![]https://github.com/ophwsjtu18/ohw19f/blob/master/student/gyz/%E8%BF%9B%E5%BA%A610.23.png
+![]student/gyz/进度10.23.png
