@@ -39,3 +39,11 @@ git config --global user.email youremail@whatever.com
 git config -- list  
 git config -- global credential.helper 'cache --timeout 3600'  
 
+# OpenCV 读图形
+
+ import  cv2  
+img=cv2.imread("aa".jpg )  
+ cv2.imshow("wwww",img)  
+ cv2.waitKey(0)  
+ cv2.destroyAllWindows()  
+ 
