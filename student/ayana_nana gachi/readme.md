@@ -11,4 +11,4 @@
 
 第二周进度
 ![](https://github.com/ophwsjtu18/ohw19f/blob/master/student/ayana_nana%20gachi/QQ%E6%88%AA%E5%9B%BE20191023175639.png)
-github desttop和git已安装
+github desttop和git以及VS code已安装
