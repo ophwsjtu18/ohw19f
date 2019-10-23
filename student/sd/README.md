@@ -11,7 +11,15 @@
 
 ### 3.（进度+日期）
 
-## 二 （二级标题）
+## 二 课程相关
+
+### 1.Git设置
+
+git config -- list
+
+git config -- global credential.helper 'cache --timeout 3600'
+
+## 三 （二级标题）
 
 ### 1.（三级标题）
 
