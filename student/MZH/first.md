@@ -5,7 +5,7 @@
 uaisnxoan
 xasxjsank
 xasxax
-![](https://github.com/ophwsjtu18/ohw19f/blob/master/student/MZH/LG)6OPP0)BQ6(B0D4J%2526%7BO.png)
+![](student/MZH/LG)6OPP0)BQ6(B0D4J%26{O.png)
 
 ## the file is just for fun
 
