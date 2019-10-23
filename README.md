@@ -1,13 +1,9 @@
 # ohw19f
 Open source maker course for SJTU in 2019 fall
 
-# 大标题
+# 串口钢琴Mixly代码
 
-dfadsfasdfas  
-dafdsafdf  
-asdfsafd  
-
-![](https://github.com/ophwsjtu18/ohw19f/blob/master/aaa.JPG)
+![](https://github.com/ophwsjtu18/ohw19/blob/master/serp_mixly.PNG)
 
 
 ## 小标题
