@@ -10,6 +10,7 @@
 
 不是很懂
 怎么不变啊
+老师，没往后做主要是这个jupyter虚拟机不知道为什么运行不起来？后面的作业没法往后做。。。。
 
 ### 以此类推
 ![](https://github.com/ophwsjtu18/ohw19f/blob/master/student/yzy/1572341947(1).jpg)
