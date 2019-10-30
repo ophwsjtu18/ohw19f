@@ -10,6 +10,8 @@
 ![第一次作业](https://github.com/ophwsjtu18/ohw19f/blob/master/student/xyz/%E6%8D%95%E8%8E%B7.PNG)
 ------------分割线-----------------------------------------------------------------------------------------
 ![第二次作业](https://github.com/ophwsjtu18/ohw19f/blob/master/student/xyz/1.PNG)
+
+
 import numpy as np
 import cv2
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
@@ -48,6 +50,6 @@ cap = cv2.VideoCapture(0)
  cv2.imshow('frame',gray)
  if cv2.waitKey(1) & 0xFF == ord('q'):
 break
-# When everything done, release the capture
+#When everything done, release the capture
  cap.release()
 cv2.destroyAllWindows()
