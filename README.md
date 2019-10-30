@@ -47,3 +47,6 @@ img=cv2.imread("aa.jpg" )
  cv2.waitKey(0)  
  cv2.destroyAllWindows()  
  
+ # vsc配置本地路径  
+![](https://github.com/kq2019/G9_2019/blob/master/vscfix_01.JPG)  
+![](https://github.com/kq2019/G9_2019/blob/master/vscfix_02.JPG)  
