@@ -38,6 +38,6 @@ while(True):
 #ball=img[10:280,300:550]
 #img[0:270,0:250]=ball
 
-cv2.waitKey(0)
+
 cap.release()
 cv2.destroyAllWindows()
