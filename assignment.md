@@ -10,4 +10,6 @@
 1. 继续dataquest练习推进
 
 # 20191030 作业
-1. dataquest练习完成面向对象设计
+1. dataquest练习完成面向对象设计  2/2 Object-Oriented Python  
+2. 完成的屏幕拷贝在11月6日前上传github
+
