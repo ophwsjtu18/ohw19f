@@ -10,22 +10,27 @@ def draw_chess_board(faces,img):
             img = cv2.line(img, (x,y+(i+1)*y_interval),(x+w,y+(i+1)*y_interval),(0,0,255),1)
     return img
 
+cap =cv2.VideoCapture(0)
 
 face_cascade = cv2.CascadeClassifier('./haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier('./haarcascade_eye.xml')
-img = cv2.imread('test.jpg')
-gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-faces = face_cascade.detectMultiScale(gray, 1.3, 5)
-for (x,y,w,h) in faces:
-    img = cv2.rectangle(img,(x,y),(x+w,y+h),(255,0,0),2)
-    roi_gray = gray[y:y+h, x:x+w]
-    roi_color = img[y:y+h, x:x+w]
-    eyes = eye_cascade.detectMultiScale(roi_gray)
-    for (ex,ey,ew,eh) in eyes:
-        cv2.rectangle(roi_color,(ex,ey),(ex+ew,ey+eh),(0,255,0),2)
+while(True):
+    ret,img=cap.read()   
+    #img = cv2.imread('test.jpg')
+    #gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    faces = face_cascade.detectMultiScale(img, 1.3, 5)
+    for (x,y,w,h) in faces:
+        img = cv2.rectangle(img,(x,y),(x+w,y+h),(255,0,0),2)
+        #roi_gray = gray[y:y+h, x:x+w]
+        roi_color = img[y:y+h, x:x+w]
+        eyes = eye_cascade.detectMultiScale(roi_color)
+        for (ex,ey,ew,eh) in eyes:
+            cv2.rectangle(roi_color,(ex,ey),(ex+ew,ey+eh),(0,255,0),2)
 
-img=draw_chess_board(faces,img)
+    img=draw_chess_board(faces,img)
+    cv2.imshow('img',img)
+    if cv2.waitKey(1)& 0xFF==ord('q'):
+        break
 
-cv2.imshow('img',img)
-cv2.waitKey(0)
+cap.release()
 cv2.destroyAllWindows()
