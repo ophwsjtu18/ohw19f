@@ -10,4 +10,6 @@
 ![Dictionaries and Frequency Tables 完成截图](https://github.com/ophwsjtu18/ohw19f/blob/master/student/zmz/%E7%AC%AC%E4%BA%94%E7%AB%A0%E5%AE%8C%E6%88%90%E6%88%AA%E5%9B%BE.PNG)
 ### 第六章 Functions: Fundamentals
 ![Functions: Fundamentals 完成截图](https://github.com/ophwsjtu18/ohw19f/blob/master/student/zmz/%E7%AC%AC%E5%85%AD%E7%AB%A0%E5%AE%8C%E6%88%90%E6%88%AA%E5%9B%BE.PNG)
-
+### 第七章 Functions: Intermediate
+函数部分完成截图
+![函数部分完成截图](https://github.com/ophwsjtu18/ohw19f/blob/master/student/zmz/%E5%87%BD%E6%95%B0%E9%83%A8%E5%88%86%E5%AE%8C%E6%88%90%E6%88%AA%E5%9B%BE.PNG)
