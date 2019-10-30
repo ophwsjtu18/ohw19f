@@ -4,13 +4,13 @@
 
 ### 1.进度20191015
 
-![image](https://github.com/ophwsjtu18/ohw19f/blob/master/student/sd/10152019.png)
+![image1](https://github.com/ophwsjtu18/ohw19f/blob/master/student/sd/10152019.png)
 
 ### 2.进度20191022
-![image](https://github.com/ophwsjtu18/ohw19f/blob/master/student/sd/10222019.png)
+![image2](https://github.com/ophwsjtu18/ohw19f/blob/master/student/sd/10222019.png)
 
 ### 3.进度20191030
-![image](https://github.com/ophwsjtu18/ohw19f/blob/master/student/sd/10302019.png)
+![image3](https://github.com/ophwsjtu18/ohw19f/blob/master/student/sd/10302019.png)
 
 ## 二 课程相关
 
