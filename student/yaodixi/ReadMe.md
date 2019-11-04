@@ -4,7 +4,8 @@
 
 ## Week8 to week9 progress screenshots from dashboard
 ![]
-(https://github.com/ophwsjtu18/ohw19f/blob/master/student/yaodixi/pictures/Week8%20to%20week9%20progress%20screenshots%20from%20dashboard.JPG)
+(https://github.com/ophwsjtu18/ohw19f/blob/master/student/yaodixi/pictures/Week8%20to%20week9%20progress%20screenshots%20from%20dashboard.png)
+
 ## Week7 to week8 progress screenshots from dashboard
 ![](https://github.com/ophwsjtu18/ohw19f/blob/master/student/yaodixi/pictures/Week7%20to%20week8%20progress%20screenshots%20from%20dashboard.JPG)
 
