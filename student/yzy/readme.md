@@ -16,5 +16,4 @@
 ![](https://github.com/ophwsjtu18/ohw19f/blob/master/student/yzy/1572341947(1).jpg)
 
 ###由于网上虚拟机一直刷新不出来，不知道原因，所以干脆在自己电脑上写了这些代码，
-![](https://github.com/ophwsjtu18/ohw19f/blob/master/student/yzy/oriented to class.png)
-![](student/yzy/oriented to class.png)
+![](https://github.com/ophwsjtu18/ohw19f/blob/master/student/yzy/class.jpg)
