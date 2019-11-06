@@ -17,6 +17,9 @@
 1. 在ohw19f/team里面的某一组的readme中写上自己的名字，每组不得超过5人。组长用*号标出  
 2. 学习3D打印课件，完成一个简单模型设计
 3. 每个小组去3D打印中心打印2套投石机零件，其中1套交给助教
+   RTL文件在此
+   https://github.com/ophwsjtu18/catapult/blob/master/Arduino_Catapult.rar
+   
 
 
 
