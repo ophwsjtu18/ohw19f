@@ -6,3 +6,7 @@
 
 ### First Homework
 ![Homework1](homework1.png)
+
+### Object-Orient Exercise
+![Homework2](object-orient.png)
+ 
