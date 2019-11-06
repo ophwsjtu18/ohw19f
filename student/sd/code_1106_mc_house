@@ -1,0 +1,83 @@
+import mcpi.minecraft as minecraft
+import mcpi.block as block
+
+
+class House():
+    def __init__(self, data):
+        self.data = data
+    
+    def putSquare(self, cordinate, a):
+        x0 = cordinate[0]
+        y0 = cordinate[1]
+        z0 = cordinate[2]
+        for x in range(a-2):
+            mc.setBlock(x0+x,y0,z0,block.COBBLESTONE.id)
+            mc.setBlock(x0+x,y0,z0+a-1,block.COBBLESTONE.id)
+        for z in range(a-4):
+            mc.setBlock(x0,y0,z0+z+1,block.COBBLESTONE.id)
+            mc.setBlock(x0+a-1,y0,z0+z+1,block.COBBLESTONE.id)
+
+    def buildWall(self):
+        x0 = self.data[0]
+        y0 = self.data[1]
+        z0 = self.data[2]
+
+        for y in range(10):
+            self.putSquare([x0,y0+y,z0],10)
+    
+    def buildRoof(self):
+        x0 = self.data[0]
+        y0 = self.data[1]
+        z0 = self.data[2]
+
+        for y in [10,8,6,4]:
+            self.putSquare([x0,y0+15-y/2,z0+1],y)
+            self.putSquare([x0+1,y0+15-y/2,z0+1],y-2)
+
+    def buildDoor(self):
+        x0 = self.data[0]
+        y0 = self.data[1]
+        z0 = self.data[2]
+
+        for x in range(2):
+            for y in range(4):
+                mc.setBlock(x0+4+x,y0+y,z0,block.WOOD.id)
+
+    def buildWindow(self):
+        x0 = self.data[0]
+        y0 = self.data[1]
+        z0 = self.data[2]
+
+        for x in range(2):
+            for y in range(2):
+                mc.setBlock(x0+1+x,y0+4+y,z0,block.GLASS.id)
+        
+    def buildAll(self):
+        self.buildWall()
+        self.buildDoor()
+        self.buildWindow()
+        self.buildRoof()
+
+
+mc = minecraft.Minecraft.create()
+
+pos = mc.player.getTilePos()
+print(pos)
+
+house1 = House([93,100,-256])
+
+
+house1.buildAll()
+
+
+
+            
+
+
+
+
+
+
+
+
+
