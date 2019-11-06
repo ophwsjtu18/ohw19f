@@ -31,7 +31,7 @@ def house(x0,y0,z0,M=block.SNOW_BLOCK.id,L=10,W=10,H=10,):
     for a in range(0,L):
         for b in range(0,W):
             if pat[a][b]==1:
-                mc.setBlock(x0+a,y0+H,z0+b,block.GLASS.id)        #天花板透明
+                mc.setBlock(x0+a,y0+H,z0+b,block.GLASS.id)        #天花板花纹
             else:
                 mc.setBlock(x0+a,y0+H,z0+b,block.DIAMOND_BLOCK.id)
     for a in range(1,3):
