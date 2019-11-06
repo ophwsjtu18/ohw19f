@@ -29,12 +29,13 @@ class house():
         x0=self.data[0]
         y0=self.data[1]
         z0=self.data[2]
-        for x in range(11):
+        for y in range(20):
+            for x in range(11):
+                mc.setBlock(x0-11+x, y0+y, z0, block.GLASS.id)
+                mc.setBlock(x0-11+x, y0+y, z0-11, block.GLASS.id)
             for z in range(11):
-                if x//2=="0":
-                    mc.setBlock(x0-10+x,y0-10+x,z+z0-5,block.GLASS.id)
-                else:
-                    mc.setBlock(x0-10+x,y0-10+x,z+z0-5,block.GOLD_BLOCK.id)
+                mc.setBlock(x0, y0+y, z-11+z0, block.GLASS.id)
+                mc.setBlock(x0-11, y0+y, z-11+z0, block.GLASS.id)
     def buildAll(self):
         self.roof()
         self.buildWall()
@@ -45,5 +46,9 @@ import mcpi.block as block
 mc = minecraft.Minecraft.create()
 
 pos = mc.player.getTilePos()
-mh=house([pos.x,pos.y,pos.z])
-mh.buildAll()
+mh1=house([pos.x,pos.y,pos.z])
+mh1.buildAll()
+mh2=house([pos.x+30,pos.y,pos.z+30])
+mh2.buildAll()
+mh3=house([pos.x-30,pos.y,pos.z-30])
+mh3.buildAll()
