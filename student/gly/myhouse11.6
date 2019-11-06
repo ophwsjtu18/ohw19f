@@ -1,0 +1,51 @@
+from mcpi.minecraft import Minecraft
+import mcpi.block as block
+mc=Minecraft.create()
+pos=mc.player.getTilePos()
+
+class house(object):
+    def __init__(self,a,b,c):
+        self.a = a
+        self.b = b
+        self.c = c
+
+    def roof(self):
+        x0 = self.a
+        y0 = self.b
+        z0 = self.c
+        pat = [[1,1,1,1,1,1,1,1,1,1,1],
+               [1,0,0,0,0,0,0,0,0,0,1],
+               [1,0,0,0,0,0,0,0,0,0,1],
+               [1,0,0,0,0,0,0,0,0,0,1],
+               [1,0,0,0,0,0,0,0,0,0,1],
+               [1,0,0,0,0,0,0,0,0,0,1],
+               [1,0,0,0,0,0,0,0,0,0,1],
+               [1,0,0,0,0,0,0,0,0,0,1],
+               [1,0,0,0,0,0,0,0,0,0,1],
+               [1,0,0,0,0,0,0,0,0,0,1],
+               [1,1,1,1,1,1,1,1,1,1,1]]
+        for x in range(11):
+            for z in range(11):
+                if pat[x][z] == 0:
+                    mc.setBlock(x-11+x0, y0+20, z-11+z0, block.GLASS.id)
+                elif pat[x][z] == 2:
+                    mc.setBlock(x-11+x0, y0+20, z-11+z0, block.DIAMOND_BLOCK.id)
+                else:
+                    mc.setBlock(x-11+x0, y0+20, z-11+z0, block.GOLD_BLOCK.id)
+
+    def wall(self):
+        x0 = self.a
+        y0 = self.b
+        z0 = self.c
+        for y in range(20):
+            for x in range(11):
+                mc.setBlock(x0-11+x, y0+y, z0, block.STONE.id)
+                mc.setBlock(x0-11+x, y0+y, z0-11, block.STONE.id)
+            for z in range(11):
+                mc.setBlock(x0, y0+y, z-11+z0, block.STONE.id)
+                mc.setBlock(x0-11, y0+y, z-11+z0, block.STONE.id)
+
+
+myhouse = house(pos.x,pos.y,pos.z)
+myhouse.roof()
+myhouse.wall()
