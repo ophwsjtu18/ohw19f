@@ -11,17 +11,17 @@ import cv2
 import numpy as np
 #当鼠标按下时变为True
 drawing=False
-# 如果 mode 为true绘制矩形。按下 'm'变成绘制曲线。
+如果 mode 为true绘制矩形。按下 'm'变成绘制曲线。
 mode=True
 ix,iy=-1,-1
 #创建回调函数
 def draw_circle(event,x,y,flags,param):
     global ix,iy,drawing,mode
-# 当按下左键是返回起始位置坐标
+当按下左键是返回起始位置坐标
     if event==cv2.EVENT_LBUTTONDOWN:
         drawing=True
         ix,iy=x,y
-# 当鼠标左键按下并移动是绘制图形。event 可以查看移动， flag查看是否按下
+当鼠标左键按下并移动是绘制图形。event 可以查看移动， flag查看是否按下
     elif event==cv2.EVENT_MOUSEMOVE and flags==cv2.EVENT_FLAG_LBUTTON:
         if drawing==True:
             if mode==True:
@@ -50,3 +50,20 @@ while(1):
     elif k==27:
         break
 
+# jiangfangzi
+class house():
+    def _init_(self,data):
+        self.data = data
+    def roof(self):
+        x0=self.data[0]
+        y0=self.data[1]
+        z0=self.data[2]
+        for x in range(11):
+            for z in range(11):
+                if pat[x][z] == "0":
+                    mc.setBlock(x0-10+x,4,z+z0-5,block,GLASS.id)
+                elif pat[x][z] == "z":
+                    mc.setBlock(x0-10+x,4,z+z0-5,block.DIAMOND_BLOCK.id)
+
+                else:
+                    mc.setBlock(x0-10+x,4,z+z0-5,block.GOLD.BLOCK.id)
