@@ -45,4 +45,8 @@ class house():
         self.fire()
 
 mh=house ([-22,5,3])
+mh1=house([20,5,3])
+mh2=house([-22,5,30])
 mh.build()
+mh1.build()
+mh2.build()
