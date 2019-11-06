@@ -41,7 +41,7 @@ class House():
 
         for x in range(2):
             for y in range(4):
-                mc.setBlock(x0+4+x,y0+y,z0,block.WOOD.id)
+                mc.setBlock(x0+4+x,y0+y,z0,block.AIR.id)
 
     def buildWindow(self):
         x0 = self.data[0]
