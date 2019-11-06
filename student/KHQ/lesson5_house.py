@@ -53,13 +53,10 @@ class House():
         self.roof()
 
 
-    def three_house(self):
-        self.build()
-        for i in range(2):
-            self.data[0] = self.data[0] + 20
-            self.build()
-
-
 pos = mc.player.getTilePos()
-house = House([pos.x, pos.y, pos.z])
-house.three_house()
+house1 = House([pos.x, pos.y, pos.z])
+house2 = House([pos.x+20, pos.y, pos.z])
+house3 = House([pos.x+40, pos.y, pos.z])
+house1.build()
+house2.build()
+house3.build()
