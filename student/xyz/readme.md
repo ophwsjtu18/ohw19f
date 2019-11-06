@@ -53,3 +53,7 @@ break
 #When everything done, release the capture
  cap.release()
 cv2.destroyAllWindows()
+--------------------------------------------------
+
+
+![第三次作业]（https://github.com/ophwsjtu18/ohw19f/blob/master/student/xyz/3.PNG）
