@@ -45,5 +45,9 @@ import mcpi.block as block
 mc = minecraft.Minecraft.create()
 
 pos = mc.player.getTilePos()
-mh=house([pos.x,pos.y,pos.z])
-mh.buildAll()
+mh1=house([pos.x,pos.y,pos.z])
+mh1.buildAll()
+mh2=house([pos.x+30,pos.y,pos.z+30])
+mh2.buildAll()
+mh3=house([pos.x-30,pos.y,pos.z-30])
+mh3.buildAll()
