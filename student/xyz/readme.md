@@ -1,15 +1,17 @@
-#标题   
+# 标题   
 121
 
-##标题  
+## 标题  
 121
 
-###标题  
+### 标题  
 121
 
 ![第一次作业](https://github.com/ophwsjtu18/ohw19f/blob/master/student/xyz/%E6%8D%95%E8%8E%B7.PNG)
 ------------分割线-----------------------------------------------------------------------------------------
 ![第二次作业](https://github.com/ophwsjtu18/ohw19f/blob/master/student/xyz/1.PNG)
+
+
 import numpy as np
 import cv2
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
@@ -17,7 +19,7 @@ eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
 img = cv2.imread('sachin.jpg')
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 #Detects objects of different sizes in the input image.
-# The detected objects are returned as a list of rectangles.
+#The detected objects are returned as a list of rectangles.
 #cv2.CascadeClassifier.detectMultiScale(image, scaleFactor, minNeighbors, flags, minSize, maxSize)
 #scaleFactor – Parameter specifying how much the image size is reduced at each image
 #scale.
@@ -38,16 +40,22 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 cap = cv2.VideoCapture(0)
  while(True):
- # Capture frame-by-frame
+ #Capture frame-by-frame
  ret, frame = cap.read()
 
-# Our operations on the frame come here
+#Our operations on the frame come here
  gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
- # Display the resulting frame
+ #Display the resulting frame
  cv2.imshow('frame',gray)
  if cv2.waitKey(1) & 0xFF == ord('q'):
 break
-# When everything done, release the capture
+#When everything done, release the capture
  cap.release()
 cv2.destroyAllWindows()
+--------------------------------------------------
+
+
+  ![第三次作业]（https://github.com/ophwsjtu18/ohw19f/blob/master/student/xyz/3.PNG）;
+ --------------------------------------------------------------------------------------------
+  ![第四次作业]（https://github.com/ophwsjtu18/ohw19f/blob/master/student/xyz/4.PNG）；

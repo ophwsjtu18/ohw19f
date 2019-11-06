@@ -11,3 +11,6 @@ Content in small
 
 ## 10.30
 ![](https://github.com/ophwsjtu18/ohw19f/blob/master/student/swa/dtq3.png)  
+
+## 11.6
+![](https://github.com/ophwsjtu18/ohw19f/blob/master/student/swa/dtq4.png)  
