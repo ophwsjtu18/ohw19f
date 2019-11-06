@@ -57,4 +57,5 @@ cv2.destroyAllWindows()
 
 
 ![第三次作业]（https://github.com/ophwjtu18/ohw19f/raw/mastr/student/xyz/3.PNG）;
- 
+ --------------------------------------------------------------------------------------------
+ ![第四次作业]（https://github.com/ophwjtu18/ohw19f/raw/mastr/student/xyz/4.PNG）；
