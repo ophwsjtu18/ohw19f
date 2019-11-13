@@ -14,4 +14,4 @@
 函数部分完成截图
 ![函数部分完成截图](https://github.com/ophwsjtu18/ohw19f/blob/master/student/zmz/%E5%87%BD%E6%95%B0%E9%83%A8%E5%88%86%E5%AE%8C%E6%88%90%E6%88%AA%E5%9B%BE.PNG)
 ### Object-Oriented Python
-![面向对象部分完成截图](https://github.com/ophwsjtu18/ohw19f/blob/master/student/zmz/%E5%87%BD%E6%95%B0%E9%83%A8%E5%88%86%E5%AE%8C%E6%88%90%E6%88%AA%E5%9B%BE.PNG)
+![面向对象部分完成截图](https://github.com/ophwsjtu18/ohw19f/blob/master/student/zmz/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E5%AE%8C%E6%88%90%E6%88%AA%E5%9B%BE.PNG)
