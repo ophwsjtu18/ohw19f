@@ -19,7 +19,7 @@ while(True):
     img = frame
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
-    faces = face_cascade.detectMultiScale(gray, 1.3, 5)
+    faces = face_cascade.detectMultiScale(img, 1.3, 5)
     for (x,y,w,h) in faces:
         img = cv2.rectangle(img,(x,y),(x+w,y+h),(255,0,0),2)
         roi_gray = gray[y:y+h, x:x+w]
@@ -32,7 +32,7 @@ while(True):
             cv2.rectangle(roi_color,(ex,ey),(ex+ew,ey+eh),(0,255,0),2)
         
     # Display the resulting frame
-    cv2.imshow('frame',gray)
+    cv2.imshow('frame',img)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
