@@ -5,3 +5,5 @@
 # dataquest1030
 ![](https://github.com/ophwsjtu18/ohw19f/blob/master/student/xpy/1030.png)
 # handnumbers_detect
+![](https://github.com/ophwsjtu18/ohw19f/blob/master/student/xpy/jupyterbook.jpg)
+![](https://github.com/ophwsjtu18/ohw19f/blob/master/student/xpy/handnumbers.jpg)
