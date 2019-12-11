@@ -23,6 +23,15 @@
    RTL文件在此
    https://github.com/ophwsjtu18/catapult/blob/master/Arduino_Catapult.rar
    
+# 20191211 作业
+
+1. 在一张A4纸上写8个数字  
+2. 利用MINIST识别这个8个数字的值，记录准确率  
+3. 将8个数字添加到数据集中的X前8个，在Y给出正确答案  
+4. 训练MINIST  
+5. 测试这8个数字，给出识别率  
+6. 完成的jupyternotebook 代码及自己拍摄的数字图片上传github自己目录作为平时成绩的重要参考。  
+
 
 
 
