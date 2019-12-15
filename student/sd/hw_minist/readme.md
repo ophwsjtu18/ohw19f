@@ -1,1 +1,1 @@
-
+check the minist.ipynb
