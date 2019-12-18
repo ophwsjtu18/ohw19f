@@ -4,4 +4,6 @@
 #  2019年11月6日
 ##  python
 ![](https://github.com/ophwsjtu18/ohw19f/blob/master/student/gly/homework-python-2.png)
-
+#  2019年12月11日
+##  训练神经网络 成功率0.25
+![](https://github.com/ophwsjtu18/ohw19f/blob/master/student/gly/training.jpg)
