@@ -28,7 +28,7 @@
 ## 第15周
 ### MINST
 识别率为25%
-训练图片
+#### 训练图片
 ![image](https://github.com/ophwsjtu18/ohw19f/blob/master/student/ykq/number.jpg)
-测试图片
+#### 测试图片
 ![image](https://github.com/ophwsjtu18/ohw19f/blob/master/student/ykq/number2.jpg)
