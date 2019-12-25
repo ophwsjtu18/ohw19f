@@ -1,0 +1,196 @@
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>投石机远程操作</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-siteapp"/>
+  <link rel="alternate icon" type="image/png" href="/i/favicon.png">
+    <link href="https://cdn.bootcss.com/amazeui/2.7.2/css/amazeui.min.css" rel="stylesheet">
+    <style>
+    .get {
+      background: #dddd3f;
+      color: #fff1f1;
+      text-align: center;
+      padding: 100px 0;
+    }
+
+    .get-title {
+      font-size: 200%;
+      border: 2px solid #fff;
+      padding: 20px;
+      display: inline-block;
+    }
+
+    .get-btn {
+      background: #fff;
+    }
+
+    .detail {
+      background: #ff113b;
+    }
+
+    .detail-h2 {
+      text-align: center;
+      font-size: 150%;
+      margin: 40px 0;
+    }
+
+    .detail-h3 {
+      color: #1f8dd6;
+    }
+
+    .detail-p {
+      color: #7f8c8d;
+    }
+
+    .detail-mb {
+      margin-bottom: 30px;
+    }
+
+    .hope {
+      background: #0bb59b;
+      padding: 50px 0;
+    }
+
+    .hope-img {
+      text-align: center;
+    }
+
+    .hope-hr {
+      border-color: #149C88;
+    }
+
+    .hope-title {
+      font-size: 140%;
+    }
+
+    .about {
+      background: #fff;
+      padding: 40px 0;
+      color: #7f8c8d;
+    }
+
+    .about-color {
+      color: #56d33d;
+    }
+
+    .about-title {
+      font-size: 180%;
+      padding: 30px 0 50px 0;
+      text-align: center;
+    }
+
+    .footer p {
+      color: #FFFF00;
+      margin: 0;
+      padding: 15px 0;
+      text-align: center;
+      background: #2d3e50;
+    }
+  </style>
+</head>
+<body>
+<header class="am-topbar am-topbar-fixed-top">
+  <div class="am-container">
+    <h1 class="am-topbar-brand">
+      <a href="#">投石机</a>
+    </h1>
+
+    <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-secondary am-show-sm-only"
+            data-am-collapse="{target: '#collapse-head'}"><span class="am-sr-only">导航切换</span> <span
+        class="am-icon-bars"></span></button>
+
+    <div class="am-collapse am-topbar-collapse" id="collapse-head">
+      <ul class="am-nav am-nav-pills am-topbar-nav">
+        <li class="am-active"><a href="#">操作界面</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="get">
+  <div class="am-g">
+    <div class="am-u-lg-12">
+      <h1 class="get-title">投石机远程操作</h1>
+    </div>
+  </div>
+</div>
+
+<div class="detail">
+  <div class="am-g am-container">
+    <div class="am-u-lg-12">
+      <h2 class="detail-h2">操作面板</h2>
+
+      <div class="am-g" style="margin-bottom: 60px">
+        <center>
+            投石机当前旋转角度: <span id="base">140</span>°
+        </center>
+        <center>
+            投石机当前状态: <span id="state">空闲</span>
+        </center>
+        <br />
+        <center>
+            <button type="button" class="am-btn am-btn-primary" onclick="operation(0)">逆时针旋转30°</button>
+            <button type="button" class="am-btn am-btn-primary" onclick="operation(1)">顺时针旋转30°</button>
+            <button type="button" class="am-btn am-btn-primary" onclick="operation(2)">空闲状态</button>
+            <button type="button" class="am-btn am-btn-primary" onclick="operation(3)">准备发射</button>
+            <button type="button" class="am-btn am-btn-primary" onclick="operation(4)">发射！</button>
+        </center>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <p>© 2019 Team1</p>
+</footer>
+
+<!--[if lt IE 9]>
+<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="https://cdn.bootcss.com/amazeui/2.7.2/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<!--<![endif]-->
+<script src="https://cdn.bootcss.com/amazeui/2.7.2/js/amazeui.min.js"></script>
+<script>
+    function operation(id) {
+        if (id === 0) {
+            $.get( "/base/left", function( data ) {
+              $( "#base" ).html( data.current_position );
+            });
+        } else if (id === 1) {
+            $.get( "/base/right", function( data ) {
+              $( "#base" ).html( data.current_position );
+            });
+        } else if (id === 2) {
+            $.get( "/state/0", function( data ) {
+              $( "#state" ).html( [
+                  '空闲', '准备发射', '发射！'
+              ][data.current_state] );
+            });
+        } else if (id === 3) {
+            $.get( "/state/1", function( data ) {
+              $( "#state" ).html( [
+                  '空闲', '准备发射', '发射！'
+              ][data.current_state] );
+            });
+        } else if (id === 4) {
+            $.get( "/state/2", function( data ) {
+              $( "#state" ).html( [
+                  '空闲', '准备发射', '发射！'
+              ][data.current_state] );
+            });
+        }
+    }
+</script>
+</body>
+</html>
